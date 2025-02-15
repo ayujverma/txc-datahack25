@@ -33,7 +33,7 @@ const icons = [
 
 const aboutUs = [
     "Texas Convergent is a product development education organization founded on project-based learning. We strive to be at the center of interdisciplinary product development on campus, and equip students with the hard and soft skills needed to build solutions as well as develop an entrepreneurial mindset.",
-    "We strive to encourage students to pursue and share their interests in the field of data science and machine learning. We hold weekly meetings on Tuesday nights in the form of technical and career-related data science workshops, technical talks by faculty members, and presentations by guests from industry. We also plan extra social events where members will have the opportunity to meet with researchers and recruiters in the field. Beyond lectures, we support participation in online ML competitions, and generally pursue projects that interest us."
+    "We strive to encourage students to pursue and share their interests in the field of data science and machine learning. We hold weekly meetings on Tuesday nights in the form of technical and career-related data science workshops, technical talks by faculty members, and presentations by guests from industry."
 ];
 
 const Datahack = () => {
