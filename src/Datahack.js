@@ -111,7 +111,7 @@ const Datahack = () => {
             <div key={index} className="relative w-full h-48">
               <div className="h-full transform transition-transform duration-500 bg-gray-800 p-6 rounded-lg text-center shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 cursor-pointer">
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-800 rounded-lg text-[#8791F2]">
-                  <img src={logo} alt={`Logo ${index + 1}`} className="w-64 h-64 object-contain" />
+                  <img src={logo} alt={`Logo ${index + 1}`} className={`object-contain ${index === 1 ? 'w-80 h-80' : 'w-64 h-64'}`} />
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-800 rounded-lg text-white opacity-0 transform rotate-y-180 hover:opacity-100">
                   {aboutUs[index]}
