@@ -4,8 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'geometric-lines': "url('/src/assets/pattern.svg')",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
+    }
   },
   plugins: [],
 }
-
