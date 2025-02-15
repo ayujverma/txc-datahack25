@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaLink } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import txcLogo from "./assets/txc.png";
 import mldsLogo from "./assets/mlds2.png";
@@ -126,10 +126,34 @@ const Datahack = () => {
       <footer className="bg-black py-6 text-center">
         <p className="text-lg text-white">Texas Convergent</p>
         <div className="flex justify-center space-x-4 mt-2">
-          <FaFacebook className="text-2xl cursor-pointer hover:text-blue-500" />
-          <FaTwitter className="text-2xl cursor-pointer hover:text-blue-400" />
-          <FaInstagram className="text-2xl cursor-pointer hover:text-pink-500" />
-          <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-700" />
+          <a 
+            href="https://www.facebook.com/txconvergent/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="text-2xl cursor-pointer hover:text-pink-500" />
+          </a>
+          <a 
+            href="https://www.instagram.com/txconvergent/?hl=en" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="text-2xl cursor-pointer hover:text-pink-500" />
+          </a>
+          <a 
+            href="https://www.linkedin.com/company/txconvergent/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-700" />
+          </a>
+          <a 
+            href="https://www.txconvergent.org/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <FaLink className="text-2xl cursor-pointer hover:text-blue-700" />
+          </a>
         </div>
         <p className="mt-2 text-sm text-white">&copy; 2025 Texas Convergent. All rights reserved.</p>
       </footer>
