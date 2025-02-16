@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ayujverma/txc-datahack25/static/css/main.311735ce.css",
+    "main.js": "/ayujverma/txc-datahack25/static/js/main.01a83874.js",
+    "static/js/488.08df878e.chunk.js": "/ayujverma/txc-datahack25/static/js/488.08df878e.chunk.js",
+    "static/media/chevron.png": "/ayujverma/txc-datahack25/static/media/chevron.19f971f008dc42d4ee45.png",
+    "static/media/mlds2.png": "/ayujverma/txc-datahack25/static/media/mlds2.c5f41899ccdb5a5f759b.png",
+    "static/media/txc.png": "/ayujverma/txc-datahack25/static/media/txc.4f3c23726cac6d983ed9.png",
+    "static/media/pattern.svg": "/ayujverma/txc-datahack25/static/media/pattern.4f542fdb9b99397176bd.svg",
+    "index.html": "/ayujverma/txc-datahack25/index.html",
+    "main.311735ce.css.map": "/ayujverma/txc-datahack25/static/css/main.311735ce.css.map",
+    "main.01a83874.js.map": "/ayujverma/txc-datahack25/static/js/main.01a83874.js.map",
+    "488.08df878e.chunk.js.map": "/ayujverma/txc-datahack25/static/js/488.08df878e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311735ce.css",
+    "static/js/main.01a83874.js"
+  ]
+}
